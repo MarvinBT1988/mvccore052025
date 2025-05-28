@@ -1,0 +1,9 @@
+{
+  "name": "SQL Server Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [1433],
+  "postCreateCommand": "sleep 20",
+  "remoteUser": "vscode"
+}
